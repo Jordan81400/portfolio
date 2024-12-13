@@ -1,0 +1,214 @@
+body{
+	background-color: #000000;
+	color: white;
+	margin: 0;
+	font-family: arial, sans-serif;
+}
+header{
+	background-color: #000000;
+	color: white;
+	padding: 10px;
+	margin: 30px;
+}
+.logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: arial, sans-serif;
+	font-size: 1.5em;
+	margin-left: 250px;
+	margin-top: 30px;
+	padding-top: 20px;
+}
+.navbar{
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-top: 30px;
+	
+}
+nav a{
+	text-decoration: none;
+	font-size: 1.5em;
+	font-family: arial, sans-serif;
+	padding: 20px;
+	color: white;
+}
+nav a:hover{
+	color: #754EF9;
+	transition: color 0.3s ease;
+}
+#haut{
+	padding-top: 200px;
+	padding-right: 800px;
+	padding-bottom: 200px;
+}
+.accueil {
+	padding-left: 250px;
+
+}
+h1.accueil {
+	font-size: 3em;
+}
+strong{
+	color: #754EF9;
+}
+nav li {
+	display: inline-block;
+}
+.button-CV{
+	background-color: black; 
+    border: 1px solid, #754EF9; 
+    padding: 10px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 0.8em; 
+    border-radius: 15px; 
+    transition: background-color 0.3s ease;
+    margin-left: 250px;
+    color: #754EF9;
+    cursor: pointer;
+}
+.button-CV:hover{
+	background-color: #754EF9;
+	color: black;
+}
+.container-competence{
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	justify-items: center;
+	background-color: #754EF9;
+	height: 500px;
+}
+
+.titre-competence{
+	grid-column: 4/5;
+	grid-row: 1/2;
+	color: white;
+}
+.html{
+	grid-column: 3/4;
+	grid-row: 2/3;
+}
+.css{
+	grid-column: 4/5;
+	grid-row: 2/3;
+}
+.word{
+	grid-column: 5/6;
+	grid-row: 2/3;
+}
+.icon{
+	font-size: 110px;
+	color: black;
+}
+.icon:hover{
+	color: white;
+}
+.stage{
+	margin-left: 250px;
+	margin-right: 400px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 3px solid, #754EF9;
+	border-radius: 30px;
+	display: grid;
+	grid-template-rows: repeat(4, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+}
+.stage h2{
+	grid-column: 1/2;
+	grid-row: 2/3;
+	margin-left: 10px;
+	color: #754EF9;
+}
+.stage p{
+	grid-column: 1/2;
+	grid-row: 3/4;
+	margin-left: 10px;
+}
+.img{
+	border-radius: 20px;
+	margin: 5px;
+	grid-row: 1/5;
+	grid-column: 2/3;
+}
+.stage:hover{
+	margin-left: 240px;
+	margin-right: 390px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	transition: 0.5s ease;
+}
+section.haut{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+}
+.bouton-haut{
+	border-radius: 20px;
+	background-color: #754EF9;
+	border: none;
+	width: 40px;
+	height: 40px;
+	margin: 20px;
+	cursor: pointer;
+}
+.haut a{
+	grid-column: 3/4;
+}
+.bouton-haut:hover{
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+}
+.container-projet{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+}
+.projets{
+	margin: 20px;
+	padding: 5px;
+	border: 2px solid, #754EF9;
+	border-radius: 30px;
+	text-align: center;
+}
+.projets img{
+	border-radius: 20px;
+}
+.projets a{
+	text-decoration: none;
+	color: white;
+}
+.projets a:hover{
+	color: #754EF9;
+}
+.container-contact{
+	display: grid;
+	grid-template-columns: 22.5% 22.5% 10% 22.5% 22.5%;
+	grid-template-rows: repeat(3, 1fr);
+	justify-items: center;
+	background-color: #754EF9;
+}
+.titre-contact{
+	grid-column: 3/4;
+	grid-row: 1/2;
+}
+.insta{
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+.mail{
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+.CV{
+	grid-column: 4/5;
+	grid-row: 2/3;
+}
+.github{
+	grid-column: 5/6;
+	grid-row: 2/3;
+}
