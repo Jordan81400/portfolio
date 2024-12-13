@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<title>Mes projets</title>
+</head>
+<body>
+	<header>
+		<h1 class="logo">Portfolio.</h1>
+	<nav class="navbar">
+		<ul>
+			<li>
+				<a href="./index.html">Acceuil</a>
+			</li>
+			<li>
+				<a href="#competence">Compétence</a>
+			</li>
+			<li>
+				<a href="#experience">Expérience</a>
+			</li>
+			<li>
+				<a href="./projets.html">Projets</a>
+			</li>
+			<li>
+				<a href="#contact">Contact</a>
+			</li>
+		</ul>
+	</nav>
+	</header>
+
+	<section class="container-projet">
+		<div class="projets">
+
+			<img src="./media/wordpress.png">
+
+			<h1>
+				<a href="https://hoareau17.hosting.unilim.fr/UEL102/"/target="_blank">Articles Wordpress</a>
+			</h1>
+		</div>
+
+		<div class="projets">
+
+			<img src="./media/WS.png">
+
+			<h1>
+				<a href="https://hoareau17.hosting.unilim.fr/minisite/">Articles WS Interactive</a>
+			</h1>
+		</div>
+		
+	</section>
+
+	<footer class="container-contact" id="contact">
+
+		<h1 class="titre-contact">
+			Contact
+		</h1>
+
+		<div class="insta">
+			<a href="https://www.instagram.com/jordan_hre/"/target="_blank">
+				<i class="fa-brands fa-instagram icon"></i>
+			</a>
+		</div>
+
+		<div class="mail">
+			<a href="mailto:jordan.hoareau1@etu.unilim.fr"/target="_blank">
+				<i class="fa-regular fa-envelope icon"></i>
+			</a>
+		</div>
+
+		<div class="CV">
+			<a href="media/CV.pdf"/target="_blank">
+				<i class="fa-regular fa-file-lines icon"></i>
+			</a>
+		</div>
+
+		<div class="github">
+			<a href="https://github.com/Jordan81400"/target="_blank">
+				<i class="fa-brands fa-github icon"></i>
+			</a>
+		</div>
+
+	</footer>
+</body>
+</html>
